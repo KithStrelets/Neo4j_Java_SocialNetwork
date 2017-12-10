@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/KithStrelets/GitHub_API_Java.svg?branch=master)](https://travis-ci.org/KithStrelets/GitHub_API_Java)
+[![Build Status](https://travis-ci.org/KithStrelets/Neo4j_Java_SocialNetwork.svg?branch=master)](https://travis-ci.org/KithStrelets/Neo4j_Java_SocialNetwork)
 [![codecov](https://codecov.io/gh/KithStrelets/GitHub_API_Java/branch/master/graph/badge.svg)](https://codecov.io/gh/KithStrelets/GitHub_API_Java)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/4e9b242d840a4f35a6633bea011ad81f)](https://www.codacy.com/app/KithStrelets/GitHub_API_Java?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=KithStrelets/GitHub_API_Java&amp;utm_campaign=Badge_Grade)
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/4e9b242d840a4f35a6633bea011ad81f)](https://www.codacy.com/app/KithStrelets/GitHub_API_Java?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=KithStrelets/GitHub_API_Java&amp;utm_campaign=Badge_Coverage)
@@ -7,8 +7,9 @@
 
 
 * Выдать упорядоченный список ФИО персон  
-	| People | 
-        ____________________________________
+
+         | People |  
+         ____________________________________  
          | name0 surname0 secondName0 | 
 
          | name1 surname1 secondName1 | 
@@ -55,8 +56,10 @@
 ----------
 
 
-* Выдать список ФИО мужчин с указанием возраста, упорядоченный по убыванию возраста  
-	 | Age |  | People | 
+* Выдать список ФИО мужчин с указанием возраста, упорядоченный по убыванию возраста
+
+
+	    | Age |  | People | 
         ____________________________________
         | 95 |  | name4 surname4 secondName4 | 
 
@@ -81,7 +84,8 @@
 
 
 * Выдать упорядоченный список ФИО друзей персоны заданными ФИО ("name1 surname1 secondName1")
-	 | Friends | 
+
+	     | Friends | 
         ____________________________________
          | name10 surname10 secondName10 | 
 
@@ -115,8 +119,9 @@
 ----------
 
 
-* Выдать упорядоченный список ФИО друзей друзей персоны заданными ФИО ("name1 surname1 secondName1")
-	 | FriendsOfFriends | 
+* Выдать упорядоченный список ФИО друзей друзей персоны заданными ФИО ("name1 surname1 secondName1")  
+
+	     | FriendsOfFriends | 
         ____________________________________
          | name0 surname0 secondName0 |   
          ---------------+159+---------------
@@ -127,7 +132,8 @@
 
 
 * Выдать упорядоченный по алфавиту список ФИО персон, в котором для каждой персоны указано количество друзей    
-	 | FriendsCount |  | People | 
+
+    	 | FriendsCount |  | People | 
         ____________________________________
          | 2 |  | name0 surname0 secondName0 | 
 
@@ -176,7 +182,8 @@
 
 
 * Выдать упорядоченный список групп социальной сети  
-	 | Groups | 
+
+	     | Groups | 
         ____________________________________
          | groupname0 | 
 
@@ -195,7 +202,8 @@
 
 
 * Выдать упорядоченный список групп персоны с заданными ФИО ("name1 surname1 secondName1")
-	 | Groups | 
+
+    	 | Groups | 
         ____________________________________
          | groupname3 | 
 
@@ -208,7 +216,8 @@
 
 
 * Выдать список групп социальной сети с указанием количества членов каждой группы, упорядоченный по убыванию количества членов группы    
-	 | Groups |  | SubscribersCount | 
+
+    	 | Groups |  | SubscribersCount | 
         ____________________________________
          | groupname3 |  | 10 | 
 
@@ -226,7 +235,8 @@
 
 
  * Выдать список ФИО персон, в котором для каждой персоны указано количество групп, в которые она входит, упорядоченный по убыванию количества групп  
- 	 | People |  | GroupsCount | 
+
+     	 | People |  | GroupsCount | 
         ____________________________________
          | name17 surname17 secondName17 |  | 3 | 
 
@@ -274,7 +284,8 @@
 
 
 * Выдать общее количество групп, в которых состоят друзья друзей персоны с заданными ФИО ("name1 surname1 secondName1")
-	 | FriendOfFriendGroupsCount | 
+
+    	 | FriendOfFriendGroupsCount | 
         ____________________________________
          | 223 | 
         ____________________________________
@@ -285,7 +296,8 @@
 
 
 * Вывести список записей персоны с заданными ФИО ("name1 surname1 secondName1")
-	 | PersonTweets | 
+
+    	 | PersonTweets | 
         ____________________________________
          | tweet0 | 
 
@@ -299,7 +311,8 @@
 	
 
 * Вывести список средних длин записи для каждого пользователя, отсортированный по убыванию средней длины
-	 | AverageTweetLength |  | People | 
+
+    	 | AverageTweetLength |  | People | 
         ____________________________________
          | 6.29 |  | name19 surname19 secondName19 | 
 
@@ -347,7 +360,8 @@
 
 
 * Вывести все записи в социальной сети, длиннее некоторой величины (>6)
- 	 | Tweets | 
+
+     	 | Tweets | 
         ____________________________________
          | tweet10 | 
 
@@ -375,7 +389,8 @@
 
 
 * Выдать список ФИО персон, в котором для каждой персоны указано количество записей данной персоны, упорядоченный по убыванию количества записей
- 	 | TweetsCount |  | People | 
+
+     	 | TweetsCount |  | People | 
         ____________________________________
          | 14 |  | name19 surname19 secondName19 | 
 
@@ -423,7 +438,8 @@
 
 
 * Вывести все записи друзей друзей персоны с заданными ФИО ("name1 surname1 secondName1")
- 	 | DeepFriendTweets | 
+
+     	 | DeepFriendTweets | 
         ____________________________________
          | tweet0 | 
         ---------------+1017+---------------
