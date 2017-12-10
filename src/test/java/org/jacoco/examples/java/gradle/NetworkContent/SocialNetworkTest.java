@@ -15,7 +15,7 @@ import static org.junit.Assert.*;
  */
 public class SocialNetworkTest {
     
-    SocialNetwork mainInstance = new SocialNetwork(10, 3);
+    private SocialNetwork mainInstance = new SocialNetwork(10, 3);
     /**
      * Test of getNetworkPeople method, of class SocialNetwork.
      */

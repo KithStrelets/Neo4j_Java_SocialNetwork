@@ -1,7 +1,8 @@
 [![Build Status](https://travis-ci.org/KithStrelets/Neo4j_Java_SocialNetwork.svg?branch=master)](https://travis-ci.org/KithStrelets/Neo4j_Java_SocialNetwork)
-[![codecov](https://codecov.io/gh/KithStrelets/GitHub_API_Java/branch/master/graph/badge.svg)](https://codecov.io/gh/KithStrelets/GitHub_API_Java)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4e9b242d840a4f35a6633bea011ad81f)](https://www.codacy.com/app/KithStrelets/GitHub_API_Java?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=KithStrelets/GitHub_API_Java&amp;utm_campaign=Badge_Grade)
-[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/4e9b242d840a4f35a6633bea011ad81f)](https://www.codacy.com/app/KithStrelets/GitHub_API_Java?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=KithStrelets/GitHub_API_Java&amp;utm_campaign=Badge_Coverage)
+[![codecov](https://codecov.io/gh/KithStrelets/Neo4j_Java_SocialNetwork/branch/master/graph/badge.svg)](https://codecov.io/gh/KithStrelets/Neo4j_Java_SocialNetwork)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/86a6f4bff2b74666b03657aa0a1cb552)](https://www.codacy.com/app/KithStrelets/Neo4j_Java_SocialNetwork?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=KithStrelets/Neo4j_Java_SocialNetwork&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/86a6f4bff2b74666b03657aa0a1cb552)](https://www.codacy.com/app/KithStrelets/Neo4j_Java_SocialNetwork?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=KithStrelets/Neo4j_Java_SocialNetwork&amp;utm_campaign=Badge_Coverage)
+![graph](https://raw.githubusercontent.com/KithStrelets/Neo4j_Java_SocialNetwork/master/graph.png)
 
 ----------
 

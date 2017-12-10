@@ -15,7 +15,7 @@ import static org.junit.Assert.*;
  */
 public class PersonTest {
     
-    Person mainInstance = new Person("_name", "_surname", "_secondName", Boolean.TRUE, 0);
+    private Person mainInstance = new Person("_name", "_surname", "_secondName", Boolean.TRUE, 0);
     
     /**
      * Test of getFullName method, of class Person.
