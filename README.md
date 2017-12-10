@@ -2,6 +2,9 @@
 [![codecov](https://codecov.io/gh/KithStrelets/Neo4j_Java_SocialNetwork/branch/master/graph/badge.svg)](https://codecov.io/gh/KithStrelets/Neo4j_Java_SocialNetwork)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/86a6f4bff2b74666b03657aa0a1cb552)](https://www.codacy.com/app/KithStrelets/Neo4j_Java_SocialNetwork?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=KithStrelets/Neo4j_Java_SocialNetwork&amp;utm_campaign=Badge_Grade)
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/86a6f4bff2b74666b03657aa0a1cb552)](https://www.codacy.com/app/KithStrelets/Neo4j_Java_SocialNetwork?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=KithStrelets/Neo4j_Java_SocialNetwork&amp;utm_campaign=Badge_Coverage)
+
+----------
+
 ![graph](https://raw.githubusercontent.com/KithStrelets/Neo4j_Java_SocialNetwork/master/graph.png)
 
 ----------
