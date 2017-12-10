@@ -53,7 +53,6 @@ public class Person {
             friendsList.add(person);
             person.getFriendsList().add(this);
         }
-        //else System.err.print("Person object can't be null or this person is already friend");
     }
     
     public void makeFriends(ArrayList<Person> personList){
@@ -61,12 +60,10 @@ public class Person {
             friendsList.addAll(personList);
             personList.forEach((newFriend) -> {newFriend.getFriendsList().add(this);});
         }
-        //else System.err.print("Person list object can't be empty or they're all already friends");
     }
     
     public void publishTweet(String message){
         if(!message.isEmpty()) tweetsList.add(message);
-        //else System.err.print("Message string shouldn't be empty");
     }
     
     public void subscribeGroup(Group group){
@@ -74,7 +71,6 @@ public class Person {
             group.subscribe(this);
             groupsList.add(group);
         }
-        //else System.err.print("Group to subscribe can't be null");
     }
     
 }

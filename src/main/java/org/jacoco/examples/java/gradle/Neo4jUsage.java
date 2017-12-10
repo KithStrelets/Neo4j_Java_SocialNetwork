@@ -28,8 +28,6 @@ public class Neo4jUsage {
         peopleNodes = new HashMap<>();
         groupsNodes = new HashMap<>();
         tweetsNodes = new HashMap<>();
-        //public Neo4jUsage(String uri, String user, String password) {
-        //driver = GraphDatabase.driver(uri, AuthTokens.basic(user, password));
     }
 
     private void registerShutdownHook(final GraphDatabaseService graphDb) {

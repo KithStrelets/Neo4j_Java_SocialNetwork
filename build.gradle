@@ -23,20 +23,14 @@ dependencies {
     [group: 'org.dbunit', name: 'dbunit', version: '2.5.4']
     )
     compile (
-    [group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.4.1'],
-    [group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.4.1'],
-    [group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.4.1'],
-    [group: 'org.json', name: 'json', version: '20160810'],
     [group: 'org.neo4j', name: 'neo4j', version: '3.3.1'],
-    //[group: 'org.neo4j', name: 'neo4j-bolt', version: '3.3.0'],
-    //[group: 'org.neo4j.driver', name: 'neo4j-java-driver', version: '1.4.4'],
     [group: 'org.projectlombok', name: 'lombok', version: '1.16.18'],
     [group: 'org.slf4j', name: 'slf4j-nop', version: '1.7.13']
     )
 }
 
 jar{
-    manifest.attributes "Main-Class": "MongoDBConnection"//"Hello"
+    manifest.attributes "Main-Class": "Main"//"Hello"
 }
 
 task codeCoverageReport(type: JacocoReport) {

@@ -18,28 +18,26 @@ public class Main {
         //start
         Neo4jUsage instance = new Neo4jUsage();
         String name = "name1 surname1 secondName1";
+        
         //operations
-
-//        instance.generateData(20, 5);
-//        Neo4jUsage.printResults(instance.getOrderedPeopleNameList());
-//        Neo4jUsage.printResults(instance.getOrderedByAgeMaleNameAgeList());
-//        Neo4jUsage.printResults(instance.getOrderedFriendList(name));
-//        Neo4jUsage.printResults(instance.getOrderedFriendsOfFriendList(name));
-//        Neo4jUsage.printResults(instance.getOrderedFriendsCount());
-//        Neo4jUsage.printResults(instance.getOrderedGroups());
-//        Neo4jUsage.printResults(instance.getOrderedGroupsOfPerson(name));
-//        Neo4jUsage.printResults(instance.getOrderedGroupsCount());
-//        Neo4jUsage.printResults(instance.getOrderedPeopleGroupsCount());
-//        Neo4jUsage.printResults(instance.getDeepFriendsGroupsCount(name));
-//        Neo4jUsage.printResults(instance.getPersonTweets(name));
-//        Neo4jUsage.printResults(instance.getPeopleAverageLengthTweets());
-//        Neo4jUsage.printResults(instance.getTweetsMoreThanLength(6));
-//        Neo4jUsage.printResults(instance.getPeopleTweetsCount());
+        //instance.generateData(20, 5);
+        Neo4jUsage.printResults(instance.getOrderedPeopleNameList());
+        Neo4jUsage.printResults(instance.getOrderedByAgeMaleNameAgeList());
+        Neo4jUsage.printResults(instance.getOrderedFriendList(name));
+        Neo4jUsage.printResults(instance.getOrderedFriendsOfFriendList(name));
+        Neo4jUsage.printResults(instance.getOrderedFriendsCount());
+        Neo4jUsage.printResults(instance.getOrderedGroups());
+        Neo4jUsage.printResults(instance.getOrderedGroupsOfPerson(name));
+        Neo4jUsage.printResults(instance.getOrderedGroupsCount());
+        Neo4jUsage.printResults(instance.getOrderedPeopleGroupsCount());
+        Neo4jUsage.printResults(instance.getDeepFriendsGroupsCount(name));
+        Neo4jUsage.printResults(instance.getPersonTweets(name));
+        Neo4jUsage.printResults(instance.getPeopleAverageLengthTweets());
+        Neo4jUsage.printResults(instance.getTweetsMoreThanLength(6));
+        Neo4jUsage.printResults(instance.getPeopleTweetsCount());
         Neo4jUsage.printResults(instance.getDeepFriendsTweetsOfPerson(name));
 
-
         //end
-        //System.in.read();
         instance.closeDB();
     }
 }

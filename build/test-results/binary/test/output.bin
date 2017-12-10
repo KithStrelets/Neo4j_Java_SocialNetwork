@@ -1,0 +1,38 @@
+getPeopleAverageLengthTweets
+getOrderedPeopleNameList
+getTweetsMoreThanLength
+getOrderedPeopleGroupsCount
+getOrderedGroupsOfPerson
+ getOrderedByAgeMaleNameAgeList
+getOrderedFriendsOfFriendList
+	getOrderedFriendsCount
+
+getOrderedGroups
+getOrderedFriendList
+getDeepFriendsGroupsCount
+getPersonTweets
+getDeepFriendsTweetsOfPerson
+getOrderedGroupsCount
+getPeopleTweetsCount
+getGroupName
+setGroupName
+subscribe
+getSubscribersList
+getTweetsList
+getFullName
+setSecondName
+getGroupsList
+publishTweet
+setTweetsList
+getFriendsList
+subscribeGroup
+setSurname
+ makeFriends
+!setGender
+"getGender
+#makeFriends
+$getAge
+%	setName
+&setAge
+('getNetworkGroups
+()getNetworkPeople
